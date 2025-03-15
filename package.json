@@ -13,6 +13,9 @@
     "start:client": "npm run dev",
     "start:swa": "swa start http://localhost:7700 --api-location ./api --host 0.0.0.0 -t 180"
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
